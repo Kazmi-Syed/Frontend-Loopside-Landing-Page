@@ -1,0 +1,215 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  font-family: Alata;
+  font-weight: 400;
+  color: white;
+}
+
+li {
+  display: inline-block;
+}
+
+@font-face {
+  font-family: Alata;
+  src: url("./font/Alata/Alata-Regular.ttf");
+}
+
+@font-face {
+  font-family: Jos;
+  src: url("./font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+}
+
+h1 {
+  font-family: Jos;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+button {
+  border: 1px solid black;
+  outline: none;
+  background: transparent;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+button:active {
+  color: white;
+  background: black;
+}
+
+svg:hover {
+  cursor: pointer;
+}
+
+nav {
+  background: url("./asset/desktop/image-hero.jpg");
+  max-width: 100vw;
+  height: 650px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 3vw 11.6vw;
+  display: block;
+}
+
+nav .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .navbar .links ul li {
+  display: inline-block;
+  margin-left: 13px;
+}
+
+nav .navbar .links ul li a {
+  color: white;
+}
+
+nav .tagline {
+  position: relative;
+  bottom: -200px;
+  max-width: 650px;
+  border: 2px solid #ffffff;
+  padding: 40px;
+}
+
+nav .tagline h1 {
+  color: white;
+  font-size: 59px;
+}
+
+.premain {
+  margin: 17vh 11.6vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.premain .right {
+  width: 550px;
+  padding: 100px 0px 0px 80px;
+  background: white;
+  position: relative;
+  top: -316px;
+  right: -558px;
+}
+
+.premain .right h1 {
+  color: black;
+  font-family: Jos;
+  max-width: 280px;
+}
+
+.premain .right p {
+  margin-top: 40px;
+  font-family: Alata;
+  color: #8c8c8c;
+  line-height: 28px;
+}
+
+.befmain {
+  margin: 0vh 11.6vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.8fr 0.8fr 0.8fr 0.8fr;
+      grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr;
+  grid-gap: 0.06;
+  margin: 17vh 11.6vw;
+}
+
+main .beforefooter {
+  position: relative;
+}
+
+main .beforefooter .box {
+  color: white;
+}
+
+main .beforefooter .box h1 {
+  z-index: 2;
+  font-family: Jos;
+  font-weight: 300;
+  max-width: 150px;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+main .beforefooter .box:hover {
+  cursor: pointer;
+}
+
+main .beforefooter .box:hover img {
+  opacity: 0.8;
+}
+
+main .beforefooter .box:hover h1 {
+  color: black;
+}
+
+footer {
+  background: black;
+  padding: 0vw 11.6vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+footer .boxy {
+  margin: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .boxy li {
+  margin-right: 50px;
+}
+
+footer .boxy #prompt {
+  font-weight: 400;
+  font-family: Alata;
+  color: dimgray;
+}
+/*# sourceMappingURL=lp.css.map */
